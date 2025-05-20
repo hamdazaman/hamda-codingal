@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:black;
+        }
+        div{
+            height: 200px;
+            width: 200px;
+            background-color:rgb(211, 119, 134);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           font: size 20px; 
+           font-family: sans-serif;
+           font-weight: bold;
+           color: white;
+            animation-name:magic ;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes magic {
+            0%{
+
+            }
+            50%{
+                scale:2.3 ;
+                background-color:purple ;
+            }
+            100%{
+                transform:rotate(360deg) ;
+                border-radius: 50%;
+                scrollbar-width: ;
+                scale: 1.5;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div>codingal</div>
+</body>
+</html>
