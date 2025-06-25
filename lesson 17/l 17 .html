@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        .card {
+
+            box-shadow: 0px 0px 10px;
+
+            transition: 0.5s
+        }
+
+        .card:hover {
+
+            cursor: pointer;
+
+            scale: 1.1;
+
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+
+                rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+        }
+
+        .card img {
+
+            width: 200px;
+
+            margin: 20px auto;
+
+            border-radius: 10px;
+
+            border: 2px solid gray;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-primary py-5 px-3">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fs-1 fw-bold">Navbar</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container my-5 mx-4 ">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://m.media-amazon.com/images/I/41zd1OAciUL._SY445_SX342_.jpg
+
+" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ratan tata</h5>
+                            <p class="card-text">Ratan Tata (1937-2024) was a prominent Indian industrialist and philanthropist, known for his leadership of the Tata Group and significant contributions to Indian industry and society.</p>
+                            <a href="#" class="btn btn-primary">buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://m.media-amazon.com/images/I/419aJfhczCL._SY445_SX342_.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Atomic habits</h5>
+                            <p class="card-text">Atomic Habits" is a transformative book by James Clear that explores the power of small habits and how they can lead to significant personal change.</p>
+                            <a href="#" class="btn btn-primary">buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="data:image/webp;base64,UklGRjwXAABXRUJQVlA4IDAXAACwVwCdASp6AMAAPpk8l0gloyIhMbc9MLATCWhZmqfJTSlaDc2Oitq8+i8kPbt1D5p3RPnO/5frC8wbnxeZX9wPVY/3v7K/AD0EP7N/nOuT9Evy6/aP/dL9t/Z00pSXTpf4X+WD4r7i8t/rvzR+xv8L10f23/B8V/lr/meod7M/0fA6gF/SP7X/zfE51NfAf/N9wL+Xf03/deqP/S8Zz7//wf+P7gX9D/uv/K/xH5LfKL/2/6z/QeqH6o/9X+o+Af+d/2L/t+tr/9fc7+4nsk/s9/9lWcjQkTbL+wQ2uQ3THsmdODptX9/jXQPXFDuLP0trg/uvQTWjtxPFGQv24/sn6Qt5yRDb50qussQrhPEc0VLkioBNbdFdPLmRfVu5iDMn4a1R6wo/DsT21XzZGKdL3sZqGzDrqvSAV7ts3cwwYvnxzK92uwzSshV0tIjpr7E+g8cf71LDLEO3vZdQo9ux93a2GUxw8SV7xWhg6hc58qC623Ihh0vp7UfC5jcmkNJirU5roPwTaZkZMphPJfuVvIfsXmtRFGgF9kUaO2wbpz0AP3Nt0ZwcXLec/Y8cLD+xci93wvR83effCq0MYvwp60dvIoqYsnwQjBtj2MxOVpOrHoJu8UJh5Bn0OW140zxXJoDBfFVghHlftorgofsE2x5v5ecXOOYJr5jt3bapZf5kil6VSI9aDivYO440vyKc+aYo9pl6j8Kkyn7EIGGyJbjs1cdYo+OlrFIqknnUFS1OQTj8N/5ClqNqrSzW7qIqATFboOP3CTJXX17LdFZp+kDtt/CcvxgnY3mWOyzwsEZSJ1ClYQRVteJ25a/zaajfNtvut9xQQTmifdKMcHts9gu3mv3VxonMFGz87CEYR0k4WL9p1/wIUWuJ7A6PQKn/MF62lIc9Fq3n+xAozYvqYIekyODGg0sfsIqS42nKEtZBus6RAAD89//g8hdoFU8tapOaOZwgtn72DT6a5SMpzsZmjyf5V7x6+GY+/350olhd+OVVQ6A/WY9DaMefdqDyI26TDe6BtnblgW0767LrMm3tsAs1V2rMpaHvQMCzIYMYPFneVHtgPLxiFN+l4qV31FGQyQRwOuxZAP0e5dYeQVGUrfOa62Hg5G75tkdVCH0ofhroQf185gBPmmKHTa5HvDtontus2/CTMW0RTL4jiXUnH/am/yeki0o2XV/sVVJJbhlIgMQidBbwPJqQSC8O0vQsfRK7DEU0jVmtBPG3WtvLEx0ab4Z21juzIiKgCs9LXOEkWFCIb4DKdP/jDPdqq6K6KWPRoVX1wZyEbZeBIhx2lk4qJH00IApCDJ6KIsWRePV2kPWNRxyORAfK0TVqHomgZcbUHN7pNziN0xUWtbJj7I7d67kP5F5D1DYUMjzG6gyvBsi/G86L3HtwzzamkD0EOIUFoq5m9M+1heyeAasULoYSZZk7LIvOrcxzOPBAsCIlvNFDMACqgPvjZ7OXDmRgMYiW5xRPG+9CPRE5p3qX3W3NK8T2QLQ/PANAFi2ql5cHz/UnDRESvKCA+GD/H/UAxH4YYugRBAdDbsKgrxJ3Eydk56zsMcDMnNKCzqDakxtR5KJxGSjPBUMcL55RS5Pk4Pw6bTnbn1NEHp9bu9RcfZYEgzNXziIy4L6wsjMhYccVwsoPLJkYip38pOgGZrv7jd1PYIzFfbdpTUi41GpwuOIqHxthjIOT3rzQ3ZRnVGN4EdVTdOwDcsFBQalWI7dmPQLVGvyHWCBfsx4GREhoDcCHO/esKsha3qSJ27Xmq8b8oFtU+vHQt7c4yU3Ee6n7DoHiIWxodTSOR6hwFwE4/9P1d7E3lm0GB9Kse220fywxFJcGehysDNzfTMI/eCEh1+fQZaLhd8WzSj2TWPVAO9DmgarFEAZVDaKeEZLdBE43mJrkr0osQrxUtxgiRuZzcJLK/oCQ4l/Gi9ypn7UZ5dXoyPCgGJQrAjgkyaRQD8il3hqqca6yUYstP/LRL6fqbTS+fRZmUfoxp3ZDfxbT+1/iQ5l41g6d2X8HFAGdYnMRTg5Fgivq6t76FF/dasnRN9uiKJTxXDi0Lrv81+tVb8qEZwl+D9KwiuTLU0bw8/A9DQURWyEd4i8HYkRPgrsaCynGCg2pskBwrAzojiHoi9k8nrN2tgeJMfkfYbnzFEtD6YJJ4VcPrPsYBFniQexkr2Bz5RqZ1aauyYZD6j0pPiFyjO9Cn2YTsZl7dE0jKARNioI15VyTiWEzddmwx3Viq5MBaVZfaZbAnZ+8jxnddbtlVWQGqFMoGlo+4qT3L5kCn820RvYuSsKG7/cyIiKTJwHZGSA51Jm5PYhF7hLD7IuqkGWx64i1BI4XFGBmXE+H4fcOOrgmqTuy3duOsFfdUzBSar01kIu4mfU8LVFSlsN8XrADEDQXR655PQyFzaGYEZ/SNPIGuvBJZlW4W967XFb1OAvVwMwEjNaWOQKzkv6jRUM6MQRMf+Rc9ahnJtGe/u03yMlJ/i4nirAPapQvqUu0pt8Csys//bWtQYv8b+Btu0AkCZGwvNAcS1pn/yD67vOYk+CKk9fQnoUgPW5Y8wbXREJ54FOoZg5O9G3MyliWkriXzBLiOmLBS66pOx2c5flrIAOtznXKSW2P9YEXeKtDOQ16pr8D4NqWAb5ngGtQkNANx+YYDjvdffhh3muGNTxf+EfZgX0iAlhMqgRYx+hNOw9wvcQ/N01m3n1RkTOgKCDjuZi6Fu4IFTaJUbkIrCi5uDPhsWHk3PUX0sYUzvWPnZK3EDQq48MCX24AKRnuaGcMR8msFdl0ueQdBY8Hdt/fbenMjExDK7dvFitpg1guPWWZmQGdU0W56GMn7tG8qH1OkW8NN+38Ugs5QEwae22csZQsmZsILadLsjxODakrIbeHURJkcukcvZsmTu1bDX8nOz2Ngt/hvyZk+Ru4yIgRn3gqxItbvTe+EVTopymXjGyBsZKEzJxA9fbJapkSXj405I5tdbZmsqsAz9/knhxMxLEkw8jyA6FvEbk3oNKrVxK+oE4iW8xYn7yxxN4PS5YYZSHj3nnoNgJGkWLHOLgNI51xjOTQpY8CS/pfuKVB56ajc2QQbiASq6ijfge8cKG+cIMhAEFV91+bYofsOMPecDY4BNfJc4UQuxt5qEfnXxKs2H7BLazi5kmIBpOrSWEDDNQyyJ0Hw0WQONgJwXK93jTUt7UAYXA91XjHWxpiY20+3ALoM162SMiU2PjGiWpXNhGWo2UEgW87jlHbHxXQhZNSplEIZuQHJGZFoyDyfKvfrrd6ohqMoy+q3bs7VET1teCAgwzRisjxWsAjFt3g42A0ONWMpjhw4oU+dffBS3+tW1GiVDzSAK9Zky7K2rNpyBek56r+5ZK4W8RG2mjxAQgKbQ8y0XF8/n3ysLNnfqI8OltVTXO/fxQi5WETMt8s56KM+lRTg+HIDIgpKZ8nXSbCPvygvWnYj7dZ/Lh5r+2mQz3Wj9It7KqU8IPJ3oWRJtWiwUhl8Bx4x49p0YIcyYLjoPr2FGS1sUbjXwGGvg/nMdaEYTw1TqaJ/2RDGqSMQv5eAjGkP+5TyaBL9MQUuQ+bzTx5eLEbtoTKh1g6t9dc0FMCd3okrLQQ4Svtph/mi8IGlgHNRh99C38SfcLRNOMSHklnjFyl2s7Um0qgDMCJEr8VWqmiVlBxhEhLrvMWXPlQrIZ1U8vgUogJHSW31Nar03bGUifz2Fr1150jEPjf7UHBHVIdulcwH9XXfjN/7h5Xr0N7+TKvYFjByXni6r/JlScIFM9F/X5ZvnLFBUJ9fFr25pIsn9+WpURsgECf95dTJo5lTjyJtgmxwN8vW/qOaZ7cfmt4hVmQaDi0DmG7QzC1uGeMU+Xox5inY6llpYnugmf78SLKG6gwCCjXBbafAnIkGQ1wJ1nYnDmzALk/bGjG7FulkPuzUhQJT6KJMKscA3073zJYBbztFUH0RGAuBEcm96A14NfrHmJeOf8abiOuqdGM1o/pxMU4xVQ02Q91jmJiBvQw3vxOtRT07bBrz3mCjVKHPk0Qpqtwx4Z8YVkTci0dHpzniSOeHtSellnvirsAYN/7vg+O4T+c8LIoCxoSe8omLPHSQS7R1V6tTtU8KVAZkdrbSdHtm67t5QdlBMDRPzB3dK0OOpANGR4td6Lgf4y5zeaUnLd9UUMlAqdkppd3VgFjiy2AmM5Zyb3F8xnClKYS/epA7m5RD9pgZRoO5PaFv9BtIcldk59yZNVyksLHr0X1IO4VmHYLx3/qJoW1n9KiyiMoh7COjyID+Zwwd/zuadKYDIOL4oDeALiQocvNbdm0aVQ+MCAipto8k3d/PoSlwHFfU7Z7f9NufEFwlXfqFxILHGUgPUW2qtbC9ZhKuoyUkN/dbbejXCgi0aKk05EYZk7wd4vB3aFHJ9f5DOJGiIOEkzPseNhk81xz9O4bYOb8pLwl5Tby0yZg5Jyc+/P3hsBWTdMjOaIA+AonCsG+fEwirei+kSLuDnkPEzSIs1hlYZB1M27SPbZwfxkzKEbjBUCLcohj7R8byEUFHTjwtA9IZeyjnVEdhWVST8L+VQdCw2E4gf3Wjq06/aPh2nb2ju9S8d+otqT7pPnauZBYZlNzjfPshFWrvUVMTfjaQAetEjMA3hk+lDOwa1CImWGGqwoS8+7NYcFfJAiBklJZHHlw/fCRfDJeovupf/RAgghIgfvlazqe7+v3YfEz8mDL/kHb4jQ1L6IfK+L4PWqSTXHl9jJcsP3JsWsU6btk//6YGZW35BjCxtBVN49RfbyjD3fPm7xx9wsnjkf6QjeY0ATI5Tw3wIbrVTvyM4KP8W5wtTN3Ah7OGxj7hjqUhzuzwDwcO4Y/WUqwsm7iClJqjmAegNeu5h2GHrfWYRJtTC/TwNvGD6O1hAQPGc3n8j0w36yaH1l4i/OKZ4q+MK/IkvSvsB5Spq6SfKzFkxUDlKrp7PDLSYMYdSnoLx+AOoof2UKU4X+mlequgCLsijiVja44eemiVdC3xB1tkIRSczyc6uoytyMtCbVSXXhNNk5+57RVjuPhJseaLX2FyEzesFPVDAuSGoToFNPmGrrlhjaGsO/Qyb2dJoaUKgUuys1Xi/WgIl21dBZjbMHQSEnfFcTCYsWKE5LXuKev9jWo8u6Rs09gdY9R9Mfv/fstauWe4arIfMVJvLzOmiiUr8wVndvMfYHPZd+Fzfe+rADBHRR3c4o3UEgEjaPcBWWRPzR/N9+dNxFFhot8MWTG/mh2jxFnAPX8wzvt6CbZWLeDmAHRnQE2ptvCsc9Y99oGBIsaZGF6irnn9GPxfGEXIVyjb7SOsTlpvqRiqdMIm6IVI1sOHvrZ0RWUBuuAScX9tmaSdeFb2u+3P/unQ30V782I9nPTmz1ruBSpYbyPnEFp80N51TkgrRbNov/Jx9GASK4dAS69VcEU0gLdZbHu/Yv4Az8aw59VuX3jtUVd4zyZWGODeEfNTxivityPIXUjTPF71asW8mQWzNsI5hmNdjuf4xaj8Uwt+XDSSccP/vUkFCn6GerHclFuD2P+XhnyPG+5UyslqnPAA3xqzTohXNT6FjrLfpghUzs99Kt/RIfF3VLEFfpHpH+MzElHCJE1g453eZoGQuGer6FZuYdkAAM4ZiOTXC86rOH8AmkcSXjqFVFLeIy28/vBzFY+pce4UReRcqa31xGTVvblF5DucTqbTs3Pb3sULc8WSkatFNWIK27wcvP/GTiTSXxPDPlRYP009stLBReC1kapX5JmTwYtu+ITCUf/bsmwxyPRi89b3swLyo7/iZmOPdmEkNZ32ty9x1J2EJ+1Au9e9zexDmHsKL7EqHHyL8McbX7TmGXX/t9ol7LT4YcXB+s7uO0Y+ijkWC9P42uSDFLMx1qbemJAW352zER8VYSDzX0dOc5g2t+y5IO/mtfw/h3W7RpR+bht0nwKWdqlea4nJ1qNM7PvAXJZ57XyHy363f34aftHIbI2AwHDfAO8TyT4i5OkmP144XfXvh5brfa6BC4e2Wufv/D/bYiqr4joiuBR93WIePSb3pIXyFwpt9vHBZHHmO6lHHgRKFKEosCfObe1gM9OI+qt/MsV4av23k/XdSb8UaumzhLZwVDFmnBE7/aXbPT2AYScAz6FqFER/1N94vLpR24UyAUQqJ+47UV5OnjtBPPjv3g/gqdqrGtDeoHEuEF00pfWLMD5WndyrRi5mdUTVH7mBCDGo7QauysFdyhW6Jfvc3wEjShSgVyr/P1TVwmscz6JzLc3Ux9NYLdPxY4T/LGl3orwGN/2h5n2HslUJ2y7As5gkr+RdiSt9wumG8SuEvuckYZYN9hT3T2RwKxkbnDI9GyEJ/0Rn5Daky/ujHK3ENQKca8JECdybyPSiHxhhSFIxeyMGXPdaxZzOoxsQ21QNuStCx6YQeW5noWw9qZngQBMB5x+xTkzsdX6jBgYXX9Pqh3bTim2fM/lEETVoCHWfIcf3INoEsba0Ndfyr4c03IqPCEJLbxeiRsKa4mKg9xy+QT1RW5lKJ5YH9bNxj1YpreM7D6h/ZeHQPLeVBS5zjrYvb7d2YEzSpBM5rQaPcNuVCbvGigAjY2sHwZL1vX4WbmVcTArpaCPDxurPjUWgo+Yn1lN35TUJSSYjD1/PWCrtQ5Fw4mP+iefB0YBlFyolkcz9lgTE4qp8oz/GSbBz37VqRxHmL5oV7J7T/QhiErDtl1GzATYDt3qdvCXycbdIY7AgspNSxt/fbGq4U8xBm8Ub6Y2Il+DZ65gQSSgCAk6XgrqhcSmO+p8aLUHvmKHVCNFU5O2jIQnOZ9n0kgrZbV4QkSjpcyGmVC7+iLidTSJg0F9fg9sYoldwtCVs7bXRJLI9SFfgAAY2ByhSA2h4TbEEmSrRpDWZIW3SGQENaVgPSXjVlwTmbxM/S5q6NQAgPsUn7lxfO2QE1tuS6uudu5X/pWWF9asI/gdHYrUEKhD6CUKQdWcmm8tQzD5U1PUHEooKr0RLrzHjWtf8fzcvPqSJW+MX8a7OiVJB7p9+Uh23PLryFmIOsjxdXaqkn6IXspoqEObgVszWQKbrRfTTZlr3+Z9aS264+fvipZ8VCtPshJEXo7Jaz1SG5Z5/TB+l/yuQ62TdaNQYWayXLsOGeHobeP6KhrZWYMrDgqyZ2BWts85z3kLwa/SjUoob6Zcvf9wRZZhvIxHOjPRx+n/wJEDlr22CfdA706bK8A+KhDAP3muKzAl9JWFdt155kIN539Ko2bB2gdBjYgQee0cIcku0ltKbodamxq4BUfpGGj82e2D+XnvbaCaXT6J6S9uHdWxLQ3xHotttKusqOfJj2OPP9BRg18zOU98LnpxjVs+JQb2qEN0/1R9Q9+/b/gC+qNZPt2xp5CORv4kt2HRvKQRvddZuootNJ5T4QWIrU/NrgMBPM01cZjo5rlwt7LfSd3SAJuCywBUNr2b6tmu984HuQdjRqujxLcBsveA2h/zS9NLeibYLD13PtMnaVdDKRcF7og073av8MLxwSfxdF3AC5pJ+hsN3zvFf26Scl3EnWoSvIHNDwkr/YwBvF7tFQMAy25IovQUIUML6htZF19JrK/XCw3MLtiV3/gHiVYPADrQKgjoJszCrGpq3PT0YbcbtokTD2xJQE98VYQpPH3eZrQh6yFgpKdvB3Y6NLMrq29AfWUUKkZV0w2ROT+yIkz96PrEuNL1haRJDnghOP8m4j9gCtGvZwwS1S3twThbVdSTH9hn+EThk40Dop+avV6KP2LaDJkWfxuW5zyvnljjKQ7UkddPPb2xG8/VAubtgg52JQlNV4EP7oIcVBEtBaFF+Wf8fwGkKZfXKt2jVIYxiQ7yK3tMDryh+rHAXYKK2yS/FWQ9OBMGUTKZ6D10H+NXfqVIamZO+HDP9RTQj5Psq71U1QKLeHYAAA==" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rich dad poor dad</h5>
+                            <p class="card-text">Rich Dad Poor Dad" by Robert Kiyosaki is a groundbreaking personal finance book that contrasts the financial philosophies of two father figures, emphasizing the importance of financial literacy and investing in assets.</p>
+                            <a href="#" class="btn btn-primary">buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5 d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <span class="px-3">
+                <h3>Loading...</h3>
+            </span>
+        </div>
+
+
+        <div class="d-flex justify-content-center mt-5">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <footer>
+        <p class="bg-primary p-5 m-0 text-center text-light">Created by student at codingal</p>
+    </footer>
+</body>
+
+</html>

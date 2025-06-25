@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+
+.scrollspy-example {
+
+position: relative;
+
+height: 200px; /* Adjusted height to ensure scroll */
+
+overflow-y: scroll; /* Ensuring the container is scrollable */
+
+margin-bottom: 40px;
+
+box-shadow: 0px 0px 3px black;
+
+padding: 10px;
+
+}
+
+.carousel-item img {
+
+height: 400px; /* Adjust the height as needed */
+
+object-fit: cover;
+
+}
+
+</style>
+  </head>
+  <body>
+    <h1 class="display-1 text-center m-5">Pet shop </h1> 
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <h4 id="scrollspyHeading1">Afghan Hound</h4>
+  <p>The Afghan Hound is a hound distinguished by its thick, fine, silky coat, and a tail with a ring curl at the end. The breed originates in the cold mountains of Afghanistan. Its local name is Sag-e Tāzī (Dari: سگ تازی) or Tāžī Spay (Pashto: تاژي سپی). Other names for this breed are Tāzī, Balkh Hound, Baluchi Hound, and Barakzai Hound.</p>
+  <h4 id="scrollspyHeading2">Basenji</h4>
+  <p>The Basenji (/bəˈsɛndʒi/) is a breed of hunting dog created from stock that originated in Central Africa, including in the Republic of the Congo and other adjacent tropical African countries. The Fédération Cynologique Internationale places the Basenji in the Spitz and "primitive types" categories, while the American Kennel Club classifies it as a hound</p>
+  <h4 id="scrollspyHeading3">American Water Spaniel</h4>
+  <p>The American Water Spaniel (often abbreviated to AWS) is a breed of spaniel which originated in the United States. It was developed in the state of Wisconsin during the 19th century from a number of other breeds, including the Irish and English Water Spaniels. The breed was saved by Dr. Fred J. Pfeifer, who set up the breed club and standard, and whose work led to recognition for the breed by the United Kennel Club, and later, the American Kennel Club. While they are the state dog of Wisconsin, they remain a rare breed.</p>
+  <h4 id="scrollspyHeading4">Cocker Spaniel</h4>
+  <p>Cocker Spaniels are dogs belonging to two breeds of the spaniel dog type: the American Cocker Spaniel and the English Cocker Spaniel, both of which are commonly called simply Cocker Spaniel in their countries of origin. In the early 20th century, Cocker Spaniels also included small hunting spaniels</p>
+  <h4 id="scrollspyHeading5">Irish Water Spaniel</h4>
+  <p>The Irish Water Spaniel is a sturdy, cobby dog native to Ireland. The coat, consisting of dense curls, sheds very little.A topknot of long, loose curls grows downward from the crown of the head and often covers the eyes, with a "beard" growing at the back of the throat often being accompanied by "sideburns". The coat colour is a liver-puce to chocolate-brown hue, with a distinct "purple" undertone, not seen in many other breeds.The minimal coat shedding does not mean Irish Water Spaniels are necessarily "hypoallergenic", although people who may be allergic to dogs could potentially experience less of a reaction to them.</p>
+</div>
+  <h2 class="display-5 text-center m-5">Popular dogs</h2>
+  <p class="text-center m-3">Dogs are known for their loyalty, affection, intelligence, and trainability. They possess a strong sense of smell and hearing, and many breeds exhibit protective instincts. Dogs are also social animals, capable of forming deep bonds with humans and other dogs, and their personalities vary greatly.</p>
+  <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHVwcHl8ZW58MHx8MHx8fDA%3D" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://plus.unsplash.com/premium_photo-1707410048990-c9e0fb4e3956?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHVwcHl8ZW58MHx8MHx8fDA%3D" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="
+https://images.unsplash.com/photo-1529906920574-628dc1e49f5a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHB1cHB5fGVufDB8fDB8fHww" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<footer class="bg-primary m-0 p-3 text-center text-white h6">
+  <p>created &copy; by student of codingal</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
+</html>
